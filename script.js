@@ -6,7 +6,7 @@ function show(id) {
 
 // contador animado
 let counter = document.getElementById("counter");
-let target = 270200; // cambia este número
+let target = 2; // cambia este número
 let count = 0;
 
 let interval = setInterval(() => {
