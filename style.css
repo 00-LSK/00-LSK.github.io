@@ -5,55 +5,109 @@ body {
   margin: 0;
 }
 
-.profile {
-  border: 4px solid darkred;
-  padding: 30px;
-  background: linear-gradient(180deg,#000,#1a0000);
-  max-width: 800px;
+.magazine {
+  max-width: 900px;
   margin: auto;
+  border: 4px solid darkred;
+}
+
+.topbar {
+  background: darkred;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
 }
 
 .header {
+  background: linear-gradient(180deg,#000,#1a0000);
   text-align: center;
+  padding: 30px;
 }
 
-#counter {
-  font-size: 80px;
-  color: red;
-  text-shadow: 0 0 30px darkred;
-  margin: 0;
+.logo {
+  font-size: 70px;
+  letter-spacing: 12px;
+  color: #b30000;
+  text-shadow: 0 0 25px #900000;
 }
 
-.name {
-  font-size: 50px;
-  letter-spacing: 10px;
+.feature {
+  display: flex;
+  background: #140000;
+  padding: 20px;
+  gap: 20px;
 }
 
-.tabs {
-  text-align: center;
-  margin: 20px 0;
+.feature img {
+  width: 300px;
+  border: 4px solid darkred;
+  box-shadow: 0 0 30px darkred;
 }
 
-.tabs button {
-  background: black;
-  border: 1px solid red;
-  color: red;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin: 5px;
+.feature-text {
+  background: #7a1c1c;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 45px;
+  letter-spacing: 8px;
+  padding: 20px;
+}
+
+.favorites {
+  display: flex;
+  gap: 15px;
+  padding: 0 20px 20px 20px;
+}
+
+.favorites img {
+  width: 160px;
+  border: 3px solid darkred;
   transition: 0.3s;
 }
 
-.tabs button:hover {
-  background: darkred;
-  color: white;
+.favorites img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px darkred;
 }
 
-.section {
-  display: none;
+.hot {
+  background: #1a0000;
+  padding: 30px 20px;
+}
+
+.hot h2 {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.hot-card {
+  background: #7a1c1c;
+  padding: 20px;
   margin-top: 20px;
 }
 
-.active {
-  display: block;
+.collection {
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  background: #140000;
+  padding: 15px;
+  border-left: 4px solid darkred;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px darkred;
+}
+
+.card img {
+  width: 120px;
+  border: 3px solid darkred;
 }
