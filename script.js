@@ -10,7 +10,7 @@ let target = 2; // cambia este número
 let count = 0;
 
 let interval = setInterval(() => {
-  count += 3000;
+  count += 30;
   counter.innerText = count.toLocaleString();
   if (count >= target) {
     counter.innerText = target.toLocaleString();
