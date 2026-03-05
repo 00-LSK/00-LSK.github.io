@@ -1,0 +1,59 @@
+body {
+  background: #000;
+  font-family: Georgia, serif;
+  color: white;
+  margin: 0;
+}
+
+.profile {
+  border: 4px solid darkred;
+  padding: 30px;
+  background: linear-gradient(180deg,#000,#1a0000);
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+#counter {
+  font-size: 80px;
+  color: red;
+  text-shadow: 0 0 30px darkred;
+  margin: 0;
+}
+
+.name {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.tabs {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tabs button {
+  background: black;
+  border: 1px solid red;
+  color: red;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background: darkred;
+  color: white;
+}
+
+.section {
+  display: none;
+  margin-top: 20px;
+}
+
+.active {
+  display: block;
+}
